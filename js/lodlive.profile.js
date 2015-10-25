@@ -445,6 +445,20 @@ $.jStorage.set('profile', {
 				label : 'David Cameron'
 			}]
 		},
+		'http://etherpad.lobid.org/p/' : {
+			description : {
+				it : 'LOD Workshop',
+				en : 'LOD Workshop'
+			}, 
+			endpoint : 'http://dydra.com/literarymachine/lod-workshop/sparql',
+			examples : [{
+				uri : 'http://etherpad.lobid.org/p/turtle-test/export/txt#fo',
+				label : 'Felix'
+			}, {
+				uri : 'http://etherpad.lobid.org/p/turtle-test/export/txt#ap',
+				label : 'Adrian'
+			}]
+		},
 		'http://spcdata.digitpa.gov.it' : {
 			description : {
 				it : 'SPCdata.digitpa.gov.it &egrave; il portale dei dati aperti del Sistema Pubblico di Connettivit&agrave; e Cooperazione progettato e gestito direttamente da DigitPA per condividere l\'insieme dei dati pubblici disponibili presso le Pubbliche Amministrazioni. I Linked Open Data SPC attualmente disponibili sono i dati dell\'Indice della Pubblica Amministrazione.',
